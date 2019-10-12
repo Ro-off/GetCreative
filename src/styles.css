@@ -34,17 +34,26 @@ background-position:0px 0px;
 
 
 /*//////////////////////////////////////////////DownInfo///////////////////////////////////////////////////////////*/
-#downinfo { position: absolute; border-radius: 60px;box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+#downinfo { position: absolute; z-index:-2;   border-radius: 60px; box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
   background-color:#3B444B;}
-  #downinfog { position: absolute;z-index: -3; border-radius: 60px; background: linear-gradient(-190deg, #FF033E , #FF8418 );}
+  #downinfog { position: absolute; z-index: -3; border-radius: 60px; background: linear-gradient(-190deg, #FF033E , #FF8418 );}
   #downinfotxt {position: relative;}
-  #downbottom { background-color:#3B444B; position:absolute; }
+  #downbottom { background-color:#3B444B; position:absolute; z-index: -2;  }
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 /*//////////////////////////////////////////////Firstline///////////////////////////////////////////////////////////*/
-#firstline { z-index:300; border-radius: 10px; linear-gradient(-190deg, #FF033E , #FF8418 ); background: linear-gradient(-190deg, #FF033E , #FF8418 );}
+#firstline { z-index:3; border-radius: 10px; linear-gradient(-190deg, #FF033E , #FF8418 ); background: linear-gradient(-190deg, #FF033E , #FF8418 );}
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+
+
+/*//////////////////////////////////////////////WINDOW1///////////////////////////////////////////////////////////*/
+#window1 {position: absolute;border-radius: 10px;
+  background-color:rgb(250, 250, 250);}
+  #window1g {position: absolute; z-index: -1;border-radius: 10px; background: linear-gradient(-190deg, #FF033E , #FF8418 );
+   box-shadow: 0 -10px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+  #window1txt {position: relative;}/*ÑÑÑÑ*/
+ /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
  
