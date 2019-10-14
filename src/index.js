@@ -72,7 +72,9 @@ downtxtjs.onmouseout = function() {
 };
 //
 
-var showlgj = document.getElementById("showlg");
-showlgj.onclick = function() {
-  showlgj.style = "font-size:40px; font-family: 'Varela Round'; color:black;";
+let appleclickj = document.getElementById("appleclick");
+appleclickj.onclick = function() {
+  let showlgj = document.getElementById("showlg");
+  showlgj.style =
+    "border-radius: 10px; top:440px; position:absolute; right:40px; top:1090px; left:10px; height:700px; background-color: #202020; box-shadow: 0 -10px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);";
 };
